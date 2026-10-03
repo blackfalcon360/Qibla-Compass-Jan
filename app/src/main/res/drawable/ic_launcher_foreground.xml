@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- dial -->
+    <path
+        android:fillColor="#1B1F27"
+        android:strokeColor="#C9A227"
+        android:strokeWidth="3"
+        android:pathData="M54,54m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+    <!-- N / E / S / W ticks -->
+    <path
+        android:strokeColor="#C9A227"
+        android:strokeWidth="2.5"
+        android:pathData="M54,24v7M54,84v-7M84,54h-7M24,54h7" />
+    <!-- diagonal ticks -->
+    <path
+        android:strokeColor="#C9A227"
+        android:strokeWidth="2"
+        android:pathData="M75.2,32.8L71,37M75.2,75.2L71,71M32.8,75.2L37,71M32.8,32.8L37,37" />
+    <!-- needle: north red, south white -->
+    <path
+        android:fillColor="#2E9E5B"
+        android:pathData="M54,33L60,54L48,54Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,75L60,54L48,54Z" />
+    <!-- centre pin -->
+    <path
+        android:fillColor="#C9A227"
+        android:pathData="M54,54m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>
